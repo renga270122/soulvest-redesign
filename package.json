@@ -1,0 +1,11 @@
+{
+  "name": "soulvest-landing",
+  "version": "1.0.0",
+  "description": "Soulvest.ai landing page",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #222;
+}
+
+header.hero {
+    background: linear-gradient(120deg, #6a82fb 0%, #fc5c7d 100%);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px 60px 20px;
+}
+
+header.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.cta {
+    background: #fff;
+    color: #fc5c7d;
+    border: none;
+    padding: 16px 36px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s, color 0.2s;
+}
+
+.cta:hover {
+    background: #fc5c7d;
+    color: #fff;
+}
+
+section {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    padding: 32px 24px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #6a82fb;
+    font-size: 1.5rem;
+}
+
+.waitlist-form {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.waitlist-form input[type="email"] {
+    flex: 1;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.waitlist-form button {
+    background: #6a82fb;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.waitlist-form button:hover {
+    background: #fc5c7d;
+}
